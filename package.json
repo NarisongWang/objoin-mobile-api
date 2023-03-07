@@ -1,0 +1,40 @@
+{
+  "name": "objoin-mobile-api",
+  "version": "1.0.0",
+  "description": "This is a restful back-end API for a mobile application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarisongWang/objoin-mobile-api.git"
+  },
+  "author": "Narisong Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NarisongWang/objoin-mobile-api/issues"
+  },
+  "homepage": "https://github.com/NarisongWang/objoin-mobile-api#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.13.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^6.0.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.7.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
